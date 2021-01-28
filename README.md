@@ -1,5 +1,5 @@
 # Hermes
-Inspired by the Greek God of trade and messaging, Hermes provides a minimal interface for asynchronously communicating with any remote or local client/server. The API is inspired by Oz (@Banou26) and Koa. 
+Inspired by the Greek God of trade and messaging, Hermes provides a minimal interface for asynchronously communicating with any remote or local client/server. The API is inspired by Oz (@Banou26) and Koa.
 
 # Core Concepts
 ## Transports
@@ -8,7 +8,7 @@ Transports are inspired by the logging library, [winston](https://github.com/win
 ## One Way Communication
 One way communication involves sending a request to a client and receiving a response or listening for a request and responding to it. These APIs provide a similar experience to HTTP requests/responses. The two methods used are `listen` and `fetch`.
 
-## Two Way Communication
+## Two Way Communication - Unimplemented
 Similar to Websockets, two way communication provides an API for opening a channel between a client and server where either the client or server can send a request. This API works by creating listeners on events and sending events with payloads to the client. This solution is useful for high bandwidth situations where performance is critical and the protocol being used in the transport supports this type of communication natively. Examples being chrome extensions and websockets.
 
 # Special Thanks
