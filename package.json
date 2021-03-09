@@ -1,6 +1,6 @@
 {
   "name": "@saghen/hermes",
-  "version": "0.0.1-rc1",
+  "version": "0.0.1-rc2",
   "description": "A library for managing one way and two way communication between clients and servers",
   "main": "dist/index.js",
   "scripts": {
