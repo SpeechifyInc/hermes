@@ -68,7 +68,7 @@ export function createHermes<IDefaultMeta>({
       if (err instanceof NotFoundError) response.meta.code = CodesEnum.NotFound
       else if (err instanceof BadRequestError) response.meta.code = CodesEnum.BadRequest
       else if (err instanceof UnauthorizedError) response.meta.code = CodesEnum.Unauthorized
-      else response.meta.code = CodesEnum.Unknown
+      else throw err
     }
 
     return response
