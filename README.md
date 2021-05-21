@@ -1,5 +1,5 @@
 # Hermes
-Inspired by the Greek God of trade and messaging, Hermes provides a minimal interface for asynchronously communicating with any remote or local client/server. The API is inspired by Oz (@Banou26) and Koa.
+Named after the Greek God of trade and messaging, Hermes provides a minimal interface for asynchronously communicating with any remote or local client/server. The API is inspired by Oz (@Banou26) and Koa.
 
 # Core Concepts
 ## Transports
